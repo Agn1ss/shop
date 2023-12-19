@@ -1,0 +1,15 @@
+.filterCheckBox {
+  display: flex;
+  justify-content: flex-start;
+}
+@media (min-width: 481px) and (max-width: 1024px) {
+  .boxName {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .boxName {
+    font-size: 13px;
+  }
+}

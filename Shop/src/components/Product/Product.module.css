@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Russo+One&display=swap");
+
+* {
+  font-family: "Russo One", sans-serif;
+}
+.product {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  border: 2px solid black;
+  background-color: #1c1e22;
+  border-radius: 5px;
+  margin: 0% 0% 2% 2.5%;
+}
+
+.name,
+.category,
+.color {
+  text-align: center;
+}
+
+.name {
+  font-size: 20px;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+
+.category {
+  width: 94%;
+  border-radius: 5px;
+  background-color: #334e80;
+  margin-bottom: 1%;
+}
+
+.color {
+  width: 94%;
+  border-radius: 5px;
+  background-color: #718bf5;
+}
+
+.product img {
+  width: 100%;
+}
+
+.description {
+  font-size: 12px;
+  height: 20%;
+}
+
+.price {
+  margin-bottom: 3%;
+}
+
+@media (min-width: 481px) and (max-width: 1024px) {
+  .product {
+    width: 45%;
+    margin: 0% 0% 2% 3%;
+  }
+  .name {
+    font-size: 18px;
+    margin-top: 3%;
+    margin-bottom: 3%;
+  }
+}
+
+@media (max-width: 480px) {
+  .product {
+    width: 45%;
+    margin: 0% 0% 2% 2.5%;
+  }
+}

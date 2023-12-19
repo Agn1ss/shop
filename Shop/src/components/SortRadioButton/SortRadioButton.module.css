@@ -1,0 +1,14 @@
+.sortRadioButton {
+  width: 32%;
+  border-radius: 2px;
+  border: 2px solid black;
+  background-color: #1e2738;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.sortRadioButton:disabled {
+  background-color: #ffffff;
+  color: black;
+  box-shadow: 0 0 10px -3px white;
+}
